@@ -143,6 +143,7 @@ li {
 }
 
 .blockDescription {
+    font-size: 18px;
     display: flex;
     align-content: center;
     border-radius: 5px;
@@ -151,4 +152,29 @@ li {
     min-height: 20px;
     border: solid 2px black;
     margin: 0px 10px 10px;
+}
+
+/*Media Queries LAB 2*/
+
+/*For Phone Screens*/
+
+@media (max-width: 600px) and (orientation: portrait) {
+
+    .blockDescription {
+      font-size: 16px;
+    }
+  
+    .bubble {
+      padding: 5px 10px;
+    }
+
+    .barChild{
+      font-size: 14px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    
 }
